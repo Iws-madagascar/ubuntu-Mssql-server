@@ -1,6 +1,6 @@
 #!/bin/bash
 ####################################################################
-#### Sql server 2019 install Script for ubuntu 20	            ####
+#### Sql server 2022 install Script for ubuntu 20	            ####
 #### and Ubuntu Servers.                                        ####
 #### Author: Itibar Aheshman    14/04/2022                      ####
 #### Contact: contact@mylinux.work                              ####
