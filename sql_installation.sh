@@ -33,8 +33,9 @@ select fav in "${foods[@]}"; do
             ;;
         "Reconfiguration MS SQL Server 2019")
             echo "Reconfiguration MS SQL Server 2019"
-	    # optionally call a function or run some code here
+	    sudo systemctl stop mssql-server
              sudo /opt/mssql/bin/mssql-conf setup
+	     sudo systemctl start mssql-server
              echo "Tache terminer"
 	    break
             ;;
